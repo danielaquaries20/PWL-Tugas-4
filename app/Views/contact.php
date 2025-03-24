@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>About Contact</h1>
+    <h1>Contact Screen</h1>
 </body>
 </html>

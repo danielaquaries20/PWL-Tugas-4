@@ -11,17 +11,22 @@ class Home extends BaseController
 
     public function about()
     {
-        return view(name: 'about');
+        return view('about');
     }
 
     public function services()
     {
-        return view(name: 'services');
+        return view( 'services');
     }
 
     public function contact()
     {
-        return view(name: 'contact');
+        return view('contact');
+    }
+
+    public function description()
+    {
+        return view('description');
     }
 
     // public function index(): string

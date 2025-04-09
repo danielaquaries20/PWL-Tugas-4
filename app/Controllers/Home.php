@@ -6,7 +6,18 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('home');
+        return view('v_home');
+        // return view('layout');
+    }
+    
+    public function produk()
+    {
+        return view('v_produk');
+    }
+    
+    public function keranjang()
+    {
+        return view('v_keranjang');
     }
 
     public function about()
@@ -28,6 +39,7 @@ class Home extends BaseController
     {
         return view('description');
     }
+
 
     // public function index(): string
     // {
